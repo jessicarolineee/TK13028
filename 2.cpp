@@ -11,7 +11,7 @@ int main() {
     cout<<"Masukkan jumlah siswa: ";
     cin>>jumlahSiswa;
     
-    for (int i = 0; i < jumlahSiswa; ++i) {
+    for (int i = 0; i < jumlahSiswa; i++) {
         cout<<"Masukkan nilai akhir siswa ke-"<<(i + 1)<<": ";
         cin>>nilai;
 
@@ -27,10 +27,10 @@ int main() {
         }
     }
 
-    cout<<"\nStatistik Kelulusan:" << std::endl;
-    cout<<"Jumlah siswa lulus: " << lulus << std::endl;
-    cout<<"Jumlah siswa tes perbaikan: " << tesPerbaikan << std::endl;
-    cout<<"Jumlah siswa tidak lulus: " << tidakLulus << std::endl;
+    cout<<"\nStatistik Kelulusan:" << endl;
+    cout<<"Jumlah siswa lulus: " << lulus << endl;
+    cout<<"Jumlah siswa tes perbaikan: " << tesPerbaikan << endl;
+    cout<<"Jumlah siswa tidak lulus: " << tidakLulus << endl;
 
     return 0;
 }
