@@ -23,7 +23,7 @@ int main() {
             continue;
         }
 
-        for (int i = 0; i < jumlah; ++i) {
+        for (int i = 0; i < jumlah; i++) {
             cout<<"Program C++"<<endl;
         }
     }
