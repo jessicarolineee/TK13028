@@ -27,7 +27,7 @@ int main() {
     if (choice == 1) {
         cout<<"Masukkan nilai untuk faktorial: ";
         cin>>num;
-        for (int i = 1; i <= num; ++i) {
+        for (int i = 1; i <= num; i++) {
             fact *= i;
         }
         cout<<"Faktorial dari "<<num<<" adalah "<<fact<<endl;
